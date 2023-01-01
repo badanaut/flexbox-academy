@@ -1,0 +1,125 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E5E7EB;
+    margin: 0px;    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px 0px 100px;
+    background-color: #1f2937;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    font-size: 18px;
+    flex-wrap: wrap;    
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.hero-txt{
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 30px;
+}
+.intro{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 20px;
+}
+
+.intro-left{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    
+}
+#intro-img{
+    max-width: 50%;
+    height: auto;
+}
+
+.content{
+    padding: 30px 100px 50px 100px;
+    
+}
+
+.content-header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+.cards{
+    gap: 20px;
+    display: flex;
+    text-align: center; 
+}
+
+.cards img{
+    width: 80%;
+    object-fit: cover;
+    border-style: solid;
+    border-color:#3882F6;
+    border-radius: 5px;
+}
+.card-content div{
+    color: #1f2937;
+    text-align: center;
+}
+.quote div em, .quote div strong{
+    color: #1f2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 70px;
+    text-align: center;
+}
+.quote-author{
+    text-align: end;
+    margin-top: 20px;
+    padding-right: 10%;
+}
+
+.footer{
+    background-color: #3882F6;
+    margin: 100px;
+    padding:30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer button{
+    border-color: white;
+    border-style: groove;
+}
